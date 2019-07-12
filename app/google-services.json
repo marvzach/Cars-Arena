@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "341064378228",
+    "firebase_url": "https://vinde-795bb.firebaseio.com",
+    "project_id": "vinde-795bb",
+    "storage_bucket": "vinde-795bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341064378228:android:43c9ea2cbbee61f6",
+        "android_client_info": {
+          "package_name": "com.marvin.cararenaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341064378228-0ks56sln32nlk89chpa20pq22fepo40s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marvin.cararenaa",
+            "certificate_hash": "86d45f04659d63923fcfd136ed9329e8132e5b01"
+          }
+        },
+        {
+          "client_id": "341064378228-vqigms4iairumjndn58houtg6kuf22pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdUbt2G8OBfZlAO4z5sYcsobNV3GCtMiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341064378228-vqigms4iairumjndn58houtg6kuf22pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

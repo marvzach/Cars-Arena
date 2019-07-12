@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marvin.cararenaa.ui.CararenaDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF6D00"
+        android:fontFamily="@font/black_ops_one"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/buildImageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon" />
+
+        <ImageView
+            android:id="@+id/carzimages"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/black_ops_one"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/black_ops_one"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/carNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/chicle"
+                android:paddingLeft="10dp"
+                android:text="Car Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="36sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/carNameTextView"
+                android:fontFamily="@font/black_ops_one"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/categoryTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/carNameTextView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/cherry_swash"
+                android:paddingLeft="10dp"
+                android:paddingEnd="5dp"
+                android:text="Brunch, American"
+                android:textColor="#0A0A0A"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/savecarButton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="30dp">
+
+
+                <TextView
+                    android:id="@+id/phoneTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/exit"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/flamenco_light"
+                    android:gravity="center_vertical"
+                    android:text="(503) 223-1282"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/trim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/exit"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/flamenco_light"
+                    android:gravity="center_vertical"
+                    android:text="(503) 223-1282"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/Engine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/exit"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/flamenco_light"
+                    android:gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/exit"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/flamenco_light"
+                    android:gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/websiteTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/exit"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/flamenco_light"
+                    android:gravity="center"
+                    android:text="View on Marketcheck"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/addressTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/exit"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="@font/flamenco_light"
+                    android:gravity="center_vertical"
+                    android:text="123 SW Best Ever Ave. Portland, Oregon, 97222"
+                    android:textColor="@color/colorTextIcons"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/savecarButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#F6F7F8"
+                android:fontFamily="@font/allerta"
+                android:text="Save Car"
+                android:textColor="#0F0F0F"
+                android:textSize="15sp" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

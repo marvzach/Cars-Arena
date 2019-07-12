@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CararenaListActivity"
+    android:background="@color/colorAccent"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/locationDisplay"
+    android:textColor="@color/colorPrimaryText"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:textSize="20sp"
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--<ListView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/listView"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:divider="#0E1A18"-->
+    <!--android:dividerHeight="1dp"-->
+    <!--android:listSelector="#8D8B8A"-->
+    <!--&gt;-->
+
+<!--</ListView>-->
+
+</RelativeLayout>

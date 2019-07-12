@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/background" />
+
+<TextView
+    android:id="@+id/appNameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:fontFamily="@font/black_ops_one"
+    android:text="Car Arena"
+    android:textColor="#FF6D00"
+    android:textSize="60sp" />
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Enter your car make below"-->
+<!--android:layout_marginTop="300dp"-->
+<!--android:layout_marginLeft="40dp"-->
+<!--android:textColor="@color/colorAccent"-->
+<!--android:textSize="30sp"-->
+<!--/>-->
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="135dp"
+    android:layout_marginLeft="50dp"
+    android:src="@drawable/background"/>
+
+    <TextView
+        android:id="@+id/locationInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/black_ops_one"
+        android:hint="Find your dream Car here by clicking button below "
+        android:textColor="#ffff"
+        android:textColorHint="#FF6D00"
+        android:textSize="30sp"
+        app:fontFamily="@font/black_ops_one" />
+
+<Button
+    android:id="@+id/savedcarsButton"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="300dp"
+    android:background="#FF6D00"
+    android:fontFamily="@font/black_ops_one"
+    android:text="View Saved Cars"
+    android:textColor="#fff"
+    android:visibility="visible" />
+
+<Button
+    android:id="@+id/findbutton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+
+    android:background="#FF6D00"
+    android:fontFamily="@font/black_ops_one"
+    android:layout_above="@+id/savedcarsButton"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+
+    android:text="Search for Cars"
+    android:textColor="#fff" />
+
+
+
+<EditText
+    android:id="@+id/editText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="dIGsvGbDwyF95th3c9NicTGXSnaOM8sG"
+    android:visibility="invisible" />
+
+
+
+
+
+
+</RelativeLayout>

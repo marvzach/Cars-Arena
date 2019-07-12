@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/car"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    android:touchscreenBlocksFocus="false"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/scar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chevrolet" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="650dp"-->
+        <!--android:fontFamily="@font/black_ops_one"-->
+        <!--android:text=" Welcome to Cars Arena"-->
+        <!--android:textColor="#FF6D00"-->
+        <!--android:textSize="40sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="600dp"-->
+        <!--android:fontFamily="@font/black_ops_one"-->
+        <!--android:text=" Find your Dream Car Here"-->
+        <!--android:textColor="#FFEB3B"-->
+        <!--android:textSize="35sp" />-->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/logo" />
+
+
+</RelativeLayout>
